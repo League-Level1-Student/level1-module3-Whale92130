@@ -33,7 +33,11 @@ public class CowTimer {
     }
 
     public void start() throws InterruptedException {
-        
+    	for (int u = 0; u<11; u++) {
+        System.out.println(this.seconds);
+        Thread.sleep(1000);
+        seconds--;
+    	}
     }
 
     public void playSound(final String file) {
