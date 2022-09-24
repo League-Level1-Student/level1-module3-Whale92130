@@ -2,10 +2,11 @@
     static final int WIDTH = 844;
     static final int HEIGHT = 600;
     PImage back;
-        size(WIDTH, HEIGHT);
-    }
+        
+    
 
     public void setup() {
+      size(844, 600);
       back = loadImage("froggerBackground.png");
       
       
