@@ -23,10 +23,18 @@ public class Gridworld_Runner {
 		Location location3 = new Location(9,6);
 		Location location4 = new Location(9,8);
 		world.show();
+			for (int a = 0; a<10; a++) {
+				for (int i = 0; i < 10; i++) {
+					Location location5 = new Location(a,i);
+					world.add(location5, flower);
+				}
+			}
+		
 		world.add(location, bug);
 		world.add(location2, bug2);
 		world.add(location3, flower);
 		world.add(location4, flower);
+		
 		
 		
 	}
